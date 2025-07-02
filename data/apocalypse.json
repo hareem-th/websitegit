@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "question": "You hear a loud crash outside your window. Looking out, you see a small group of zombies approaching your building. What do you do?",
+        "options": {
+            "Barricade the door and windows with furniture.": "You took quick action to secure your surroundings and avoided unnecessary risk.",
+            "Grab a weapon and prepare to fight.": "Your bravery is admirable, but it\u2019s risky to confront zombies head-on.",
+            "Sneak out the back door while they\u2019re distracted.": "Your stealthy choice helped you escape safely."
+        },
+        "scare_points": {
+            "Barricade the door and windows with furniture.": 5,
+            "Grab a weapon and prepare to fight.": 15,
+            "Sneak out the back door while they\u2019re distracted.": 10
+        }
+    },
+    {
+        "id": 2,
+        "question": "You\u2019re running through an alley and see a survivor trapped under debris, calling for help. Zombies are nearby. What\u2019s your move?",
+        "options": {
+            "Try to lift the debris and free them.": "Your courage is commendable, but this choice might slow you down.",
+            "Distract the zombies and hope the survivor can escape.": "Smart! You tried to help while minimizing your risk.",
+            "Ignore them and prioritize your safety.": "You chose self-preservation over risking your life for others."
+        },
+        "scare_points": {
+            "Try to lift the debris and free them.": 20,
+            "Distract the zombies and hope the survivor can escape.": 10,
+            "Ignore them and prioritize your safety.": 5
+        }
+    },
+    {
+        "id": 3,
+        "question": "You find an abandoned grocery store. Inside, there\u2019s some food and a locked medical kit. Suddenly, you hear growling nearby. What do you do?",
+        "options": {
+            "Quickly grab the food and run.": "You secured vital resources while minimizing your time in danger.",
+            "Try to unlock the medical kit for supplies.": "A risky move, but it could pay off if you get valuable supplies.",
+            "Leave immediately and avoid attracting attention.": "Safety first! You avoided the risk altogether."
+        },
+        "scare_points": {
+            "Quickly grab the food and run.": 10,
+            "Try to unlock the medical kit for supplies.": 15,
+            "Leave immediately and avoid attracting attention.": 5
+        }
+    },
+    {
+        "id": 4,
+        "question": "You come across a car with keys inside. However, the noise might attract zombies, and the road ahead looks blocked. What\u2019s your plan?",
+        "options": {
+            "Use the car to try and clear a path.": "A bold choice that could clear the way or backfire loudly.",
+            "Take the keys but move ahead on foot.": "Smart choice—now you have options without making too much noise.",
+            "Stay put and wait for a safer opportunity.": "You avoided unnecessary risks by staying cautious."
+        },
+        "scare_points": {
+            "Use the car to try and clear a path.": 15,
+            "Take the keys but move ahead on foot.": 10,
+            "Stay put and wait for a safer opportunity.": 5
+        }
+    },
+    {
+        "id": 5,
+        "question": "It\u2019s nighttime, and you find a seemingly safe house to rest in. However, you hear faint noises upstairs. What do you do?",
+        "options": {
+            "Investigate the noises to ensure it\u2019s safe.": "A risky move, but knowledge is power in such situations.",
+            "Barricade yourself in a room downstairs.": "A defensive choice that keeps you safe for now.",
+            "Keep moving and find another place to rest.": "You avoided the unknown and prioritized staying ahead."
+        },
+        "scare_points": {
+            "Investigate the noises to ensure it\u2019s safe.": 15,
+            "Barricade yourself in a room downstairs.": 10,
+            "Keep moving and find another place to rest.": 5
+        }
+    }
+]

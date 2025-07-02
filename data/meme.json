@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "question": "How do you react when you get unexpected marks in an exam?",
+        "options": {
+            "Haye Mazay!": "You're just a chill guy.",
+            "Disappointed, but not surprised.": "Expects an easy day, failed.",
+            "Aray bhai, paper was out of syllabus!": "Main character energy? Always ON."
+        }
+    },
+    {
+        "id": 2,
+        "question": "Whats your excuse when the professor catches you late to class?",
+        "options": {
+            "Bus traffic mein phas gaya tha.": "Expects an easy day, failed.",
+            "Pretends to be out of breath: Sir, daur ke aya hoon!": "Main character energy? Always ON.",
+            "Chill, sir. Relax karen!": "You're just a chill guy."
+        }
+    },
+    {
+        "id": 3,
+        "question": "How do you feel when your friends cancel a group hangout last minute?",
+        "options": {
+            "Yeh sab planning karni hi nahi chahiye thi!": "Expects an easy day, failed.",
+            "Mujhe kyun nahi bataya pehle?!": "Main character energy? Always ON.",
+            "Mai toh VIP hoon. Mujhe koi farq nahi padta.": "You're just a chill guy."
+        }
+    },
+    {
+        "id": 4,
+        "question": "What\u2019s your strategy for group projects?",
+        "options": {
+            "I\u2019ll do everything because no one else will.": "Expects an easy day, failed.",
+            "Aray bhai, koi aur kar lega na?": "You're just a chill guy.",
+            "Mein kyun karoon? Mein toh star student hoon.": "Main character energy? Always ON."
+        }
+    },
+    {
+        "id": 5,
+        "question": "What\u2019s your reaction when a professor extends the deadline?",
+        "options": {
+            "Chalo, ab maze se last minute kaam kareinge.": "You're just a chill guy.",
+            "Yaar, main tou already submit kar chuka tha!": "Expects an easy day, failed.",
+            "Assignment? Kon si assignment?": "Main character energy? Always ON."
+        }
+    }
+]
+
+

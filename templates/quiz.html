@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ quiz_type }} Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="quiz-container">
+        <header>
+            <h1>{{ quiz_type }} Quiz</h1>
+        </header>
+
+        <form method="POST" class="quiz-form">
+            <p class="question">{{ current_question.question or 'Question text not available' }}</p>
+
+            {% for option in current_question.options %}
+                <div class="option">
+                    <input type="radio" id="answer_{{ loop.index }}" name="answer" value="{{ option }}">
+                    <label for="answer_{{ loop.index }}">{{ option }}</label>
+                </div>
+            {% endfor %}
+
+            <div class="navigation-buttons">
+                {% if session['current_question']|default(0) > 0 %}
+                    <!-- Ensure previous question URL works -->
+                    <a href="{{ url_for(quiz_type.lower() + '_quiz', question=session['current_question'] - 1) }}" class="btn">Previous</a>
+                {% endif %}
+                <input type="submit" value="Next" class="btn">
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <p>Quiz App &copy; 2025</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Categories</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Quiz App!</h1>
+        <p class="description">A fun and interactive quiz app with multiple categories to test your knowledge. Choose your preferred quiz and get started!</p>
+    </header>
+    
+    <div class="container">
+      <div class="quiz-main">
+        <h2>Select a quiz category below:</h2>
+        <div class="quiz-categories">
+            <a href="{{ url_for('meme_quiz') }}" class="quiz-box">
+                <div class="quiz-icon-container">
+                    <span class="quiz-icon">😂</span>
+                    <h3>Meme Quiz</h3>
+                </div>
+                <p class="category-description">Test your meme knowledge and have fun!</p>
+            </a>
+            <a href="{{ url_for('general_quiz') }}" class="quiz-box">
+                <div class="quiz-icon-container">
+                    <span class="quiz-icon">🧠</span>
+                    <h3>General Quiz</h3>
+                </div>
+                <p class="category-description">Answer a range of questions from general knowledge!</p>
+            </a>
+            <a href="{{ url_for('apocalypse_quiz') }}" class="quiz-box">
+                <div class="quiz-icon-container">
+                    <span class="quiz-icon">☠️</span>
+                    <h3>Apocalypse Quiz</h3>
+                </div>
+                <p class="category-description">Are you ready for the apocalypse? Test your survival skills!</p>
+            </a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+        <p>Quiz App &copy; 2025</p>
+    </footer>
+</body>
+</html>

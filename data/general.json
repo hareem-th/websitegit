@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["Earth", "Mars", "Jupiter"],
+        "correct": "Mars"
+    },
+    {
+        "question": "Who wrote the famous play 'Romeo and Juliet'?",
+        "options": ["Charles Dickens", "William Shakespeare", "Jane Austen"],
+        "correct": "William Shakespeare"
+    },
+    {
+        "question": "What is the capital city of France?",
+        "options": ["Rome", "Berlin", "Paris"],
+        "correct": "Paris"
+    },
+    {
+        "question": "What is the largest organ in the human body?",
+        "options": ["Heart", "Skin", "Liver"],
+        "correct": "Skin"
+    },
+    {
+        "question": "Which element has the chemical symbol 'O'?",
+        "options": ["Oxygen", "Gold", "Osmium"],
+        "correct": "Oxygen"
+    }
+]
